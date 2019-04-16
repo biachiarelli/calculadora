@@ -1,5 +1,5 @@
 # Calculadora Simples
 
-![](C:\Users\Beatriz\Documents\GIT\Calculadora\img.png)
+![](https://github.com/biachiarelli/calculadora/blob/master/img.png)
 
 - Javascript
