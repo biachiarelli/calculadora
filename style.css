@@ -1,0 +1,56 @@
+
+html {
+	font-family: sans-serif;
+}
+
+input {
+	font-size: 25px;
+}
+
+.form {
+	padding-left: 40%;
+	padding-right: 40%
+}
+
+.innerForm {
+	/*border-style: solid;
+	border-width: 1px;*/
+	padding: 10px 10px;
+	background-color: #DDCDC0
+
+}
+
+.input {
+	width: 70%;
+	background-color: #74972F;
+}
+
+table {
+	padding-top: 10px;
+	width: 100%;
+}
+
+td {
+	width: 25%;
+}
+
+.button {
+	background-color: #DD691E;
+	width: 80%;
+}
+
+.buttonEqual {
+	background-color: #3E4B64;
+	color: white;
+	width: 20%;
+}
+
+.number{
+	background-color: #F3ECBE;
+	width: 80%;
+}
+
+.help{
+	background-color: #FFDD37;
+	width: 80%;
+}

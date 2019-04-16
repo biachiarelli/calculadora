@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculadora</title>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" href="calculator.png" />
+</head>
+<body>
+	<center class="form">
+		<h1>Calculadora</h1>
+
+		<div class="innerForm">
+
+			<p id="message"></p>
+			<input class="input"  type="text" id="input" name="input" value =""  oninput="changeInput()">
+			<input class="buttonEqual" type="button" onclick="getAnswer()" value="=">
+
+			<table>
+			  <tr>
+			    <td><input class="button" type="button" onclick="inputValue('%')" value="%"></td>
+			    <td><input class="button" type="button" onclick="inputValue('^')" value="^"></td>
+			    <td><input class="button" type="button" onclick="inputValue('√¯')" value="√¯"></td>
+			    <td><input class="button" type="button" onclick="clean()" value="C"></td>
+			  </tr>
+			  <tr>
+			    <td><input class="number" type="button" onclick="inputValue(7)" value="7"></td>
+			    <td><input class="number" type="button" onclick="inputValue(8)" value="8"></td>
+			    <td><input class="number" type="button" onclick="inputValue(9)" value="9"></td>
+			    <td><input class="button" type="button" onclick="inputValue('*')" value="*"></td>
+			  </tr>
+			  <tr>
+			    <td><input class="number" type="button" onclick="inputValue(4)" value="4"></td>
+			    <td><input class="number" type="button" onclick="inputValue(5)" value="5"></td>
+			    <td><input class="number" type="button" onclick="inputValue(6)" value="6"></td>
+			    <td><input class="button" type="button" onclick="inputValue('/')" value="/"></td>
+			  </tr>
+			  <tr>
+			    <td><input class="number" type="button" onclick="inputValue(1)" value="1"></td>
+			    <td><input class="butto number" type="button" onclick="inputValue(2)" value="2"></td>
+			    <td><input class="number" type="button" onclick="inputValue(3)" value="3"></td>
+			    <td><input class="button" type="button" onclick="inputValue('-')" value="-"></td>
+			  </tr>
+			  <tr>
+			    <td><input class="number" type="button" onclick="inputValue(0)" value="0"></td>
+			    <td><input class="button" type="button" onclick="inputValue('.')" value="."></td> 
+			    <td><input class="help" type="button" onclick="inputValue('?')" value="?"></td>
+			    <td><input class="button" type="button" onclick="inputValue('+')" value="+"></td>
+			  </tr>
+			</table>
+		</div> 
+	</center>
+
+<script src="calculadora.js"></script>
+</body>
+</html>
